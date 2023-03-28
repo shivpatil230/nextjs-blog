@@ -1,27 +1,41 @@
-name: Playwright Tests
+name: Run Playwright and Generate a video, screenshots, and LightHouse HTML Report
+
 on:
   push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
+    branches: "*"
+  workflow_dispatch:
+
 jobs:
-  test:
-    timeout-minutes: 60
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v2
-      with:
-        node-version: 'lts/*'
-    - name: Install dependencies
-      run: pnpm install
-    - name: Install Playwright Browsers
-      run: pnpm exec playwright install --with-deps
-    - name: Run Playwright tests
-      run: pnpm exec playwright test
-    - uses: actions/upload-artifact@v3
-      if: always()
-      with:
-        name: reports
-        path: reports/
-        retention-days: 30
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "17.x"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgbm-dev         
+          npm ci
+          npx playwright install chromium
+          npm install -g lighthouse chrome-launcher axe-core chromium wait-on
+      - name: Start the application
+        run: |
+          export DISPLAY=:1
+          npm run start & npx wait-on http://localhost:3000
+      - name: Run Playwright tests
+        run: npx playwright test --config=playwright.config.js
+
+      - name: Generate Lighthouse Report
+        run: |
+          lighthouse http://localhost:3000 --output html --output-path ./test-results/report.html --chrome-flags="--headless --no-sandbox --disable-gpu"
+      - name: Upload report, screenshots and videos of failed tests
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results
+          path: ./test-results

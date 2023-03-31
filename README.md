@@ -9,7 +9,7 @@ Please READ everything I am giving you and everyone needs to submit in Canvas.
 ## Lecture Videos
 [Project 2 Intro and Project 1 Debrief  Part 1](https://youtu.be/TaTOCifmREc)
 [Project 2 Intro and Project 1 Debrief  Part 2](https://youtu.be/LO99DuD6_4I)
-[Introduction to the Psychology of Web Design])[https://youtu.be/uo969JG6M-o]
+[Introduction to the Psychology of Web Design](https://youtu.be/uo969JG6M-o)
 
 ## Project Requirements
 # Introduction to the Project and Grading System

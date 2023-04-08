@@ -11,6 +11,7 @@ Please READ everything I am giving you and everyone needs to submit in Canvas.
 - [Project 2 Intro and Project 1 Debrief  Part 2](https://youtu.be/LO99DuD6_4I)
 - [Introduction to the Psychology of Web Design](https://youtu.be/uo969JG6M-o)
 - [Project 2 Update - Design and Fixing an Error in Project 2](https://youtu.be/AtjM_ozVpZM)
+- [Brand Archetypes an Introduction to the Psychology of Design](https://youtu.be/Kkojhby3EOI)
 ## Project Requirements
 # Introduction to the Project and Grading System
 

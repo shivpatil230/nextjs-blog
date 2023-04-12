@@ -12,6 +12,9 @@ Please READ everything I am giving you and everyone needs to submit in Canvas.
 - [Introduction to the Psychology of Web Design](https://youtu.be/uo969JG6M-o)
 - [Project 2 Update - Design and Fixing an Error in Project 2](https://youtu.be/AtjM_ozVpZM)
 - [Brand Archetypes an Introduction to the Psychology of Design](https://youtu.be/Kkojhby3EOI)
+
+## Reading and Cheat Sheets
+- [Brand Archtype Design Cheat Sheet](https://docs.google.com/document/d/1TLPmXrTA0XRQ133lMOcrVJUHFa3XQDpLPfIbFw6BgYQ/edit?usp=sharing)
 ## Project Requirements
 # Introduction to the Project and Grading System
 

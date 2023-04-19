@@ -17,6 +17,10 @@ Please READ everything I am giving you and everyone needs to submit in Canvas.
 0 [Brand Archetypes and Implementing the Sales Funnel](https://youtu.be/XFRSYXBpXSU)
 ## Reading and Cheat Sheets
 - [Brand Archtype Design Cheat Sheet](https://docs.google.com/document/d/1TLPmXrTA0XRQ133lMOcrVJUHFa3XQDpLPfIbFw6BgYQ/edit?usp=sharing)
+## Google Analytics / Other Info
+- [GA 4 Tutorial Overview](https://neilpatel.com/blog/google-analytics-4/)
+- [React GA - Google analytics Main react library](https://github.com/react-ga/react-ga)
+- [React Google Tutorial but you proably want to look for others](https://tamalweb.com/google-analytics-with-reactjs)
 ## Project Requirements
 # Introduction to the Project and Grading System
 

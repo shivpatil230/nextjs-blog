@@ -13,6 +13,10 @@ Please READ everything I am giving you and everyone needs to submit in Canvas.
 - [Project 2 Update - Design and Fixing an Error in Project 2](https://youtu.be/AtjM_ozVpZM)
 - [Brand Archetypes an Introduction to the Psychology of Design](https://youtu.be/Kkojhby3EOI)
 - [Projec 2 Tips for Completion and Implementation of Sales Funnel and Testing](https://youtu.be/UCMFloxt39Q)
+### Project 1 - Final Grading Information
+- [Project 1 Final Grading - Part 1](https://youtu.be/Wl317U7z_OI)
+- [Project 1 Final Grading - Part 2](https://youtu.be/uMgSlu6KzVg)
+- [Project 1 Final Grading - Part 3](https://youtu.be/hTyH7oYpnvY)
 
 0 [Brand Archetypes and Implementing the Sales Funnel](https://youtu.be/XFRSYXBpXSU)
 ## Reading and Cheat Sheets
